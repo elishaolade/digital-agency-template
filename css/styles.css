@@ -37,6 +37,16 @@ header {
   transition: .3s ease-in-out;
 }
 
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .menu-list {
+  display: inline-block;
+}
+
 header .menu-list .menu-list-itm {
   display: inline-block;
   margin-right: 15px;
